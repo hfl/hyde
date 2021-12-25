@@ -12,6 +12,16 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+hyde:
+  # color scheme
+  color: default #theme-base-08, theme-base-09, theme-base-0a
+  #theme-base-0b, theme-base-0c, theme-base-0d, theme-base-0e
+  #theme-base-0f
+  # sidebar left or right
+  sidebar: default #layout-reverse
+  # sidebar fix or no
+  sidebar-fix: sidebar-sticky#sidebar-nofix
+
 plugins:
   - jekyll-gist
   - jekyll-paginate
